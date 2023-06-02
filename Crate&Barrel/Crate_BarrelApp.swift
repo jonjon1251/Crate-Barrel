@@ -11,7 +11,7 @@ import SwiftUI
 struct Crate_BarrelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViews()
         }
     }
 }

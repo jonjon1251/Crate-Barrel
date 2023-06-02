@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		8247ECE32A29642B004D4A19 /* Crate_BarrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECE22A29642B004D4A19 /* Crate_BarrelApp.swift */; };
-		8247ECE52A29642B004D4A19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECE42A29642B004D4A19 /* ContentView.swift */; };
 		8247ECE72A29642C004D4A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8247ECE62A29642C004D4A19 /* Assets.xcassets */; };
 		8247ECEA2A29642C004D4A19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8247ECE92A29642C004D4A19 /* Preview Assets.xcassets */; };
+		8247ECF22A29657D004D4A19 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECF12A29657D004D4A19 /* TabViews.swift */; };
+		8247ECF42A2965A1004D4A19 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECF32A2965A1004D4A19 /* HomeView.swift */; };
+		8247ECF62A2965AA004D4A19 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECF52A2965AA004D4A19 /* ShopView.swift */; };
+		8247ECF82A2965B5004D4A19 /* FavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECF72A2965B5004D4A19 /* FavesView.swift */; };
+		8247ECFA2A2965BF004D4A19 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECF92A2965BF004D4A19 /* AccountView.swift */; };
+		8247ECFD2A2972F9004D4A19 /* CBNavBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECFC2A2972F9004D4A19 /* CBNavBarButton.swift */; };
+		8247ED002A29750C004D4A19 /* ShopCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ECFF2A29750C004D4A19 /* ShopCategories.swift */; };
+		8247ED042A29B00C004D4A19 /* ShopCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED032A29B00C004D4A19 /* ShopCategoriesView.swift */; };
+		8247ED062A29B022004D4A19 /* ShopTheRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED052A29B022004D4A19 /* ShopTheRoomView.swift */; };
+		8247ED0A2A29B9F9004D4A19 /* HomeCardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED092A29B9F9004D4A19 /* HomeCardButtonView.swift */; };
+		8247ED0C2A29BBB1004D4A19 /* HomeViewCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED0B2A29BBB1004D4A19 /* HomeViewCardViews.swift */; };
+		8247ED0E2A29BFD7004D4A19 /* AccountTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED0D2A29BFD7004D4A19 /* AccountTools.swift */; };
+		8247ED102A29C401004D4A19 /* AccountToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED0F2A29C401004D4A19 /* AccountToolsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8247ECDF2A29642B004D4A19 /* Crate&Barrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crate&Barrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8247ECE22A29642B004D4A19 /* Crate_BarrelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crate_BarrelApp.swift; sourceTree = "<group>"; };
-		8247ECE42A29642B004D4A19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8247ECE62A29642C004D4A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8247ECE92A29642C004D4A19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8247ECF12A29657D004D4A19 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		8247ECF32A2965A1004D4A19 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8247ECF52A2965AA004D4A19 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		8247ECF72A2965B5004D4A19 /* FavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavesView.swift; sourceTree = "<group>"; };
+		8247ECF92A2965BF004D4A19 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		8247ECFC2A2972F9004D4A19 /* CBNavBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBNavBarButton.swift; sourceTree = "<group>"; };
+		8247ECFF2A29750C004D4A19 /* ShopCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCategories.swift; sourceTree = "<group>"; };
+		8247ED032A29B00C004D4A19 /* ShopCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCategoriesView.swift; sourceTree = "<group>"; };
+		8247ED052A29B022004D4A19 /* ShopTheRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTheRoomView.swift; sourceTree = "<group>"; };
+		8247ED092A29B9F9004D4A19 /* HomeCardButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardButtonView.swift; sourceTree = "<group>"; };
+		8247ED0B2A29BBB1004D4A19 /* HomeViewCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCardViews.swift; sourceTree = "<group>"; };
+		8247ED0D2A29BFD7004D4A19 /* AccountTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTools.swift; sourceTree = "<group>"; };
+		8247ED0F2A29C401004D4A19 /* AccountToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountToolsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +75,11 @@
 		8247ECE12A29642B004D4A19 /* Crate&Barrel */ = {
 			isa = PBXGroup;
 			children = (
-				8247ECE22A29642B004D4A19 /* Crate_BarrelApp.swift */,
-				8247ECE42A29642B004D4A19 /* ContentView.swift */,
 				8247ECE62A29642C004D4A19 /* Assets.xcassets */,
+				8247ECE22A29642B004D4A19 /* Crate_BarrelApp.swift */,
+				8247ED082A29B147004D4A19 /* DataModel */,
+				8247ECFE2A29743B004D4A19 /* CustomUI */,
+				8247ECF02A296557004D4A19 /* TabBar */,
 				8247ECE82A29642C004D4A19 /* Preview Content */,
 			);
 			path = "Crate&Barrel";
@@ -65,6 +91,56 @@
 				8247ECE92A29642C004D4A19 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8247ECF02A296557004D4A19 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8247ECF12A29657D004D4A19 /* TabViews.swift */,
+				8247ECFB2A297259004D4A19 /* TabViewItems */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8247ECFB2A297259004D4A19 /* TabViewItems */ = {
+			isa = PBXGroup;
+			children = (
+				8247ED072A29B02B004D4A19 /* ShopSubViews */,
+				8247ECF32A2965A1004D4A19 /* HomeView.swift */,
+				8247ECF72A2965B5004D4A19 /* FavesView.swift */,
+				8247ECF92A2965BF004D4A19 /* AccountView.swift */,
+				8247ED092A29B9F9004D4A19 /* HomeCardButtonView.swift */,
+				8247ED0F2A29C401004D4A19 /* AccountToolsView.swift */,
+			);
+			path = TabViewItems;
+			sourceTree = "<group>";
+		};
+		8247ECFE2A29743B004D4A19 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				8247ECFC2A2972F9004D4A19 /* CBNavBarButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		8247ED072A29B02B004D4A19 /* ShopSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8247ED052A29B022004D4A19 /* ShopTheRoomView.swift */,
+				8247ED032A29B00C004D4A19 /* ShopCategoriesView.swift */,
+				8247ECF52A2965AA004D4A19 /* ShopView.swift */,
+			);
+			path = ShopSubViews;
+			sourceTree = "<group>";
+		};
+		8247ED082A29B147004D4A19 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8247ECFF2A29750C004D4A19 /* ShopCategories.swift */,
+				8247ED0B2A29BBB1004D4A19 /* HomeViewCardViews.swift */,
+				8247ED0D2A29BFD7004D4A19 /* AccountTools.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8247ECE52A29642B004D4A19 /* ContentView.swift in Sources */,
+				8247ED0E2A29BFD7004D4A19 /* AccountTools.swift in Sources */,
+				8247ECF42A2965A1004D4A19 /* HomeView.swift in Sources */,
+				8247ECF22A29657D004D4A19 /* TabViews.swift in Sources */,
+				8247ED0C2A29BBB1004D4A19 /* HomeViewCardViews.swift in Sources */,
+				8247ECF62A2965AA004D4A19 /* ShopView.swift in Sources */,
+				8247ECFA2A2965BF004D4A19 /* AccountView.swift in Sources */,
+				8247ECFD2A2972F9004D4A19 /* CBNavBarButton.swift in Sources */,
+				8247ECF82A2965B5004D4A19 /* FavesView.swift in Sources */,
+				8247ED102A29C401004D4A19 /* AccountToolsView.swift in Sources */,
 				8247ECE32A29642B004D4A19 /* Crate_BarrelApp.swift in Sources */,
+				8247ED0A2A29B9F9004D4A19 /* HomeCardButtonView.swift in Sources */,
+				8247ED062A29B022004D4A19 /* ShopTheRoomView.swift in Sources */,
+				8247ED042A29B00C004D4A19 /* ShopCategoriesView.swift in Sources */,
+				8247ED002A29750C004D4A19 /* ShopCategories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
