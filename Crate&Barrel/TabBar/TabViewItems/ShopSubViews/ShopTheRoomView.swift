@@ -8,8 +8,45 @@
 import SwiftUI
 
 struct ShopTheRoomView: View {
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            ScrollView {
+                ForEach(myRoomViewItems) { item in
+                    VStack(alignment: .leading, spacing: 20) {
+                        HStack {
+                            Text(item.title)
+                                .font(.headline)
+                            Spacer()
+                            Button {
+                            } label: {
+                                Text(item.subtitle)
+                                    .padding(10)
+                                    .foregroundColor(Color(uiColor: .label))
+                                    .background(Color(uiColor: UIColor.secondarySystemBackground))
+                                    .cornerRadius(.infinity)
+                            }
+                        }
+                        .padding(.leading)
+                        .padding(.trailing)
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(alignment: .center) {
+                               
+                                ForEach(item.items) { item in
+                                    NavigationLink(destination: ShopItemDetailView(shopCategory: item, shopItems: item.items)) {
+                                        Image(item.image)
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fill)
+                                            .frame(width: 200, height: 200)
+                                            .cornerRadius(10)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .padding(4)
+        }
     }
 }
 

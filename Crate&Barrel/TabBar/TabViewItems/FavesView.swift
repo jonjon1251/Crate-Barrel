@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct FavesView: View {
+    var gridItemLayout = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
+    
     var body: some View {
         NavigationView {
-            Text("Faves")
-            
+            VStack(alignment: .leading, spacing: 10) {
+                ScrollView {
+                    LazyVGrid(columns: gridItemLayout, spacing: 40) {
+                        
+                        ForEach(shopCategories, id: \.self) { item in
+                            Button {
+                                print(item.name)
+                            } label: {
+                                VStack(alignment: .center, spacing: 10) {
+                                    
+                                    Image(item.image)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: 100, height: 100)
+                                        .cornerRadius(10)
+                                }
+                            }
+                            
+                        }
+                    }
+                    HomeCrateStyleView()
+                }
+            }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {
-                    Text("Faves")
+                    Text("My Faves")
                         .fontWeight(.semibold)
                         .fontDesign(.rounded)
                 }

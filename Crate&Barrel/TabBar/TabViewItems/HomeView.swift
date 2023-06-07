@@ -12,6 +12,9 @@ struct HomeView: View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading, spacing: 10) {
+                    Text("My Account Tools")
+                        .font(.headline)
+                        .padding(.leading)
                     AccountToolsView()
                     
                     ForEach(homeCardButtons) { item in
@@ -22,6 +25,15 @@ struct HomeView: View {
                     }
                 }
                 .padding(.top)
+                
+                HomeNavButtonView(name: "Browse All Categories", image: "list.bullet")
+                
+                HomeCrateStyleView()
+                
+                HomeNavButtonView(name: "Gift Registry", image: "app.gift")
+                
+                HomeNavButtonView(name: "Find a Store", image: "building")
+
             }
           
             .navigationBarTitleDisplayMode(.inline)

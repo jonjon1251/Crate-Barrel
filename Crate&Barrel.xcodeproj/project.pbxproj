@@ -23,6 +23,10 @@
 		8247ED0C2A29BBB1004D4A19 /* HomeViewCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED0B2A29BBB1004D4A19 /* HomeViewCardViews.swift */; };
 		8247ED0E2A29BFD7004D4A19 /* AccountTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED0D2A29BFD7004D4A19 /* AccountTools.swift */; };
 		8247ED102A29C401004D4A19 /* AccountToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED0F2A29C401004D4A19 /* AccountToolsView.swift */; };
+		8247ED122A2A7C4D004D4A19 /* HomeNavButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED112A2A7C4D004D4A19 /* HomeNavButtonView.swift */; };
+		8247ED142A2A7D0C004D4A19 /* HomeCrateStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED132A2A7D0C004D4A19 /* HomeCrateStyleView.swift */; };
+		8247ED162A2AE485004D4A19 /* ShopTheRoomViewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247ED152A2AE485004D4A19 /* ShopTheRoomViewItems.swift */; };
+		82EF30252A30EE4B0057904B /* ShopItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF30242A30EE4B0057904B /* ShopItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		8247ED0B2A29BBB1004D4A19 /* HomeViewCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCardViews.swift; sourceTree = "<group>"; };
 		8247ED0D2A29BFD7004D4A19 /* AccountTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTools.swift; sourceTree = "<group>"; };
 		8247ED0F2A29C401004D4A19 /* AccountToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountToolsView.swift; sourceTree = "<group>"; };
+		8247ED112A2A7C4D004D4A19 /* HomeNavButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavButtonView.swift; sourceTree = "<group>"; };
+		8247ED132A2A7D0C004D4A19 /* HomeCrateStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCrateStyleView.swift; sourceTree = "<group>"; };
+		8247ED152A2AE485004D4A19 /* ShopTheRoomViewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTheRoomViewItems.swift; sourceTree = "<group>"; };
+		82EF30242A30EE4B0057904B /* ShopItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,8 @@
 				8247ECF92A2965BF004D4A19 /* AccountView.swift */,
 				8247ED092A29B9F9004D4A19 /* HomeCardButtonView.swift */,
 				8247ED0F2A29C401004D4A19 /* AccountToolsView.swift */,
+				8247ED112A2A7C4D004D4A19 /* HomeNavButtonView.swift */,
+				8247ED132A2A7D0C004D4A19 /* HomeCrateStyleView.swift */,
 			);
 			path = TabViewItems;
 			sourceTree = "<group>";
@@ -129,6 +139,8 @@
 				8247ED052A29B022004D4A19 /* ShopTheRoomView.swift */,
 				8247ED032A29B00C004D4A19 /* ShopCategoriesView.swift */,
 				8247ECF52A2965AA004D4A19 /* ShopView.swift */,
+				8247ED152A2AE485004D4A19 /* ShopTheRoomViewItems.swift */,
+				82EF30242A30EE4B0057904B /* ShopItemDetailView.swift */,
 			);
 			path = ShopSubViews;
 			sourceTree = "<group>";
@@ -213,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EF30252A30EE4B0057904B /* ShopItemDetailView.swift in Sources */,
 				8247ED0E2A29BFD7004D4A19 /* AccountTools.swift in Sources */,
 				8247ECF42A2965A1004D4A19 /* HomeView.swift in Sources */,
 				8247ECF22A29657D004D4A19 /* TabViews.swift in Sources */,
@@ -220,11 +233,14 @@
 				8247ECF62A2965AA004D4A19 /* ShopView.swift in Sources */,
 				8247ECFA2A2965BF004D4A19 /* AccountView.swift in Sources */,
 				8247ECFD2A2972F9004D4A19 /* CBNavBarButton.swift in Sources */,
+				8247ED142A2A7D0C004D4A19 /* HomeCrateStyleView.swift in Sources */,
 				8247ECF82A2965B5004D4A19 /* FavesView.swift in Sources */,
 				8247ED102A29C401004D4A19 /* AccountToolsView.swift in Sources */,
 				8247ECE32A29642B004D4A19 /* Crate_BarrelApp.swift in Sources */,
 				8247ED0A2A29B9F9004D4A19 /* HomeCardButtonView.swift in Sources */,
+				8247ED122A2A7C4D004D4A19 /* HomeNavButtonView.swift in Sources */,
 				8247ED062A29B022004D4A19 /* ShopTheRoomView.swift in Sources */,
+				8247ED162A2AE485004D4A19 /* ShopTheRoomViewItems.swift in Sources */,
 				8247ED042A29B00C004D4A19 /* ShopCategoriesView.swift in Sources */,
 				8247ED002A29750C004D4A19 /* ShopCategories.swift in Sources */,
 			);
